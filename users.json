@@ -1,0 +1,57 @@
+[
+    {
+      "_id": { "$oid": "6601702d1f77a068f7976c77" },
+      "username": "admin",
+      "password": "$2b$12$y3SkrjRC1xnLv4SPazrlZOczXm9YCuP01oigX1pycAuH5HEfMBjXO",
+      "admin": true,
+      "name": "Admin User",
+      "date_of_birth": "1990-01-01",
+      "email": "admin@example.com",
+      "roles": ["staff", "admin"],
+      "courses": ["Computer Science", "Mathematics"]
+    },
+    {
+      "_id": { "$oid": "6601702d1f77a068f7976c78" },
+      "username": "john_doe",
+      "password": "$2b$12$y3SkrjRC1xnLv4SPazrlZOczXm9YCuP01oigX1pycAuH5HEfMBjXO",
+      "admin": false,
+      "name": "John Doe",
+      "date_of_birth": "1985-05-15",
+      "email": "john.doe@example.com",
+      "roles": ["student"],
+      "courses": ["Biology", "Chemistry"]
+    },
+    {
+      "_id": { "$oid": "6601702d1f77a068f7976c79" },
+      "username": "jane_smith",
+      "password": "$2b$12$y3SkrjRC1xnLv4SPazrlZOczXm9YCuP01oigX1pycAuH5HEfMBjXO",
+      "admin": false,
+      "name": "Jane Smith",
+      "date_of_birth": "1992-09-20",
+      "email": "jane.smith@example.com",
+      "roles": ["student"],
+      "courses": ["History", "English"]
+    },
+    {
+      "_id": { "$oid": "6601702d1f77a068f7976c7a" },
+      "username": "professor_green",
+      "password": "$2b$12$y3SkrjRC1xnLv4SPazrlZOczXm9YCuP01oigX1pycAuH5HEfMBjXO",
+      "admin": false,
+      "name": "Professor Green",
+      "date_of_birth": "1978-12-10",
+      "email": "prof.green@example.com",
+      "roles": ["staff", "professor"],
+      "courses": ["Physics", "Engineering"]
+    },
+    {
+      "_id": { "$oid": "6601702d1f77a068f7976c7b" },
+      "username": "student123",
+      "password": "$2b$12$y3SkrjRC1xnLv4SPazrlZOczXm9YCuP01oigX1pycAuH5HEfMBjXO",
+      "admin": false,
+      "name": "Student One",
+      "date_of_birth": "2000-07-25",
+      "email": "student123@example.com",
+      "roles": ["student"],
+      "courses": ["Mathematics", "Computer Science"]
+    }
+]
